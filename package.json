@@ -5,24 +5,28 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version",
-    "commit": "cz"
+    "release": "release-it",
+    "commit": "cz",
+    "changelog:last": "conventional-changelog -p angular -r 2",
+    "changelog:preview": "conventional-changelog -p angular -u",
+    "changelog:update": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@commitlint/cz-commitlint": "^15.0.0",
     "github-latest-release": "^0.1.1",
     "puppeteer": "^11.0.0"
   },
   "devDependencies": {
     "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.2.0",
-    "standard-version": "^9.3.2"
+    "conventional-changelog": "^3.1.24",
+    "release-it": "^14.11.8"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "@commitlint/cz-commitlint"
     }
   }
 }
