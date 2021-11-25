@@ -1,6 +1,6 @@
 {
   "name": "estudolib",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@commitlint/cz-commitlint": "^15.0.0",
+    "changelog": "^1.4.2",
     "github-latest-release": "^0.1.1",
     "puppeteer": "^11.0.0"
   },
