@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "update": "git stash && git pull && npx npm-check-updates -u && npm install",
     "release": "release-it --no-npm",
     "commit": "cz",
     "changelog:last": "conventional-changelog -p angular -r 2",
