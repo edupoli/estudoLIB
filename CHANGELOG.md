@@ -1,3 +1,12 @@
+## [1.1.7](https://github.com/edupoli/estudoLIB/compare/v1.1.6...v1.1.7) (2021-12-01)
+
+
+### Bug Fixes
+
+* remove comments ([f4cc83c](https://github.com/edupoli/estudoLIB/commit/f4cc83c7cac5a0a9193c8e05183c0678d0e4a4d5))
+
+
+
 ## [1.1.6](https://github.com/edupoli/estudoLIB/compare/v1.1.0...v1.1.6) (2021-12-01)
 
 
