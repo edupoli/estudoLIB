@@ -9,6 +9,6 @@ hooks:
 
 # automatic publish from github workflow
 npm:
-  publish: false
+  publish: true
   private: true
   registry: 'OMITTED'
