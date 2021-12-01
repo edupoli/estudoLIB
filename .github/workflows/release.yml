@@ -16,7 +16,7 @@ jobs:
     name: "Release"
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "eduardo-policarpo/action-automatic-releases@latest"
+      - uses: "edupoli/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
