@@ -18,7 +18,7 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
 
-    publish:
+    
         name: publish
         runs-on: ubuntu-latest
         steps:
