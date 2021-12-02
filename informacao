@@ -3,7 +3,7 @@
  * Project: estudolib
  * Created Date: 2021-12-01 13:48:42
  * Author: Eduardo Policarpo
- * Last Modified: 2021-12-01 13:49:25
+ * Last Modified: 2021-12-01 20:18:04
  * Modified By: Eduardo Policarpo
  */
 
@@ -28,3 +28,5 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
+
+          f
